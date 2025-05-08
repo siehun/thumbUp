@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: thumb-backend
+  mvc:
+    servlet:
+      path: /api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123
+    url: jdbc:mysql://43.139.105.165:3308/thumbup
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false
