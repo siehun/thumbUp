@@ -1,7 +1,7 @@
 package io.yue.thumbup.constant;
 
 /**
- * @author pine
+ * @author yue
  */
 public interface ThumbConstant {
 

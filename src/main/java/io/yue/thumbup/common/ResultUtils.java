@@ -3,7 +3,7 @@ package io.yue.thumbup.common;
 /**
  * 返回工具类
  *
- * @author pine
+ * @author yue
  */
 public class ResultUtils {
 
