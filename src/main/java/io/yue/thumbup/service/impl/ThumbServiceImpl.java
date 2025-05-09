@@ -22,7 +22,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 * @description 针对表【thumb】的数据库操作Service实现
 * @createDate 2025-05-08 21:06:40
 */
-@Service
+@Service("thumbServiceDB")
 @Slf4j
 @RequiredArgsConstructor
 public class ThumbServiceImpl extends ServiceImpl<ThumbMapper, Thumb> implements ThumbService {
