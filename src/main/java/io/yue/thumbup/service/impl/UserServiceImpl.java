@@ -2,7 +2,7 @@ package io.yue.thumbup.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import io.yue.thumbup.constant.UserConstant;
-import io.yue.thumbup.domain.entity.User;
+import io.yue.thumbup.model.entity.User;
 import io.yue.thumbup.service.UserService;
 import io.yue.thumbup.mapper.UserMapper;
 import jakarta.servlet.http.HttpServletRequest;

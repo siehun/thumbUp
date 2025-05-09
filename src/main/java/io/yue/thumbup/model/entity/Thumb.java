@@ -1,4 +1,4 @@
-package io.yue.thumbup.domain.entity;
+package io.yue.thumbup.model.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

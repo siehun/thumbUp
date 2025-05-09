@@ -2,7 +2,7 @@ package io.yue.thumbup.controller;
 
 import io.yue.thumbup.common.BaseResponse;
 import io.yue.thumbup.common.ResultUtils;
-import io.yue.thumbup.domain.dto.DoThumbRequest;
+import io.yue.thumbup.model.dto.DoThumbRequest;
 import io.yue.thumbup.service.ThumbService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.annotation.Resource;

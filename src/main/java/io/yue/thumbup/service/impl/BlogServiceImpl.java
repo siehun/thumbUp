@@ -4,10 +4,9 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.ObjUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import io.yue.thumbup.constant.ThumbConstant;
-import io.yue.thumbup.domain.entity.Blog;
-import io.yue.thumbup.domain.entity.Thumb;
-import io.yue.thumbup.domain.entity.User;
-import io.yue.thumbup.domain.vo.BlogVO;
+import io.yue.thumbup.model.entity.Blog;
+import io.yue.thumbup.model.entity.User;
+import io.yue.thumbup.model.vo.BlogVO;
 import io.yue.thumbup.service.BlogService;
 import io.yue.thumbup.mapper.BlogMapper;
 import io.yue.thumbup.service.ThumbService;
@@ -21,7 +20,6 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 /**

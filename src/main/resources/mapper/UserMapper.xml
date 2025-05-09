@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="io.yue.thumbup.mapper.UserMapper">
 
-    <resultMap id="BaseResultMap" type="io.yue.thumbup.domain.entity.User">
+    <resultMap id="BaseResultMap" type="io.yue.thumbup.model.entity.User">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="username" column="username" jdbcType="VARCHAR"/>
     </resultMap>

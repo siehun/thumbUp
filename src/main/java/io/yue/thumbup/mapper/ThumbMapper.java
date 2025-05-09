@@ -1,6 +1,6 @@
 package io.yue.thumbup.mapper;
 
-import io.yue.thumbup.domain.entity.Thumb;
+import io.yue.thumbup.model.entity.Thumb;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

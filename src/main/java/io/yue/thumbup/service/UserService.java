@@ -1,6 +1,6 @@
 package io.yue.thumbup.service;
 
-import io.yue.thumbup.domain.entity.User;
+import io.yue.thumbup.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 import jakarta.servlet.http.HttpServletRequest;
 

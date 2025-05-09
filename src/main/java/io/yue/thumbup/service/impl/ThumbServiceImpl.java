@@ -2,14 +2,14 @@ package io.yue.thumbup.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import io.yue.thumbup.constant.ThumbConstant;
-import io.yue.thumbup.domain.dto.DoThumbRequest;
-import io.yue.thumbup.domain.entity.Thumb;
-import io.yue.thumbup.domain.entity.User;
+import io.yue.thumbup.model.dto.DoThumbRequest;
+import io.yue.thumbup.model.entity.Thumb;
+import io.yue.thumbup.model.entity.User;
 import io.yue.thumbup.service.BlogService;
 import io.yue.thumbup.service.ThumbService;
 import io.yue.thumbup.mapper.ThumbMapper;
 import io.yue.thumbup.service.UserService;
-import io.yue.thumbup.domain.entity.Blog;
+import io.yue.thumbup.model.entity.Blog;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

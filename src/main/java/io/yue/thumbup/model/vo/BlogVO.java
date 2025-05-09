@@ -1,4 +1,4 @@
-package io.yue.thumbup.domain.vo;
+package io.yue.thumbup.model.vo;
 
 import lombok.Data;
 

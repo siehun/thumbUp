@@ -1,4 +1,4 @@
-package io.yue.thumbup.domain.dto;
+package io.yue.thumbup.model.dto;
 
 import lombok.Data;
 

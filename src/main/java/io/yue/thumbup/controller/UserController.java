@@ -3,7 +3,7 @@ package io.yue.thumbup.controller;
 import io.yue.thumbup.common.BaseResponse;
 import io.yue.thumbup.common.ResultUtils;
 import io.yue.thumbup.constant.UserConstant;
-import io.yue.thumbup.domain.entity.User;
+import io.yue.thumbup.model.entity.User;
 import io.yue.thumbup.service.UserService;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;

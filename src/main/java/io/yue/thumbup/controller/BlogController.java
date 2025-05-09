@@ -2,8 +2,8 @@ package io.yue.thumbup.controller;
 
 import io.yue.thumbup.common.BaseResponse;
 import io.yue.thumbup.common.ResultUtils;
-import io.yue.thumbup.domain.entity.Blog;
-import io.yue.thumbup.domain.vo.BlogVO;
+import io.yue.thumbup.model.entity.Blog;
+import io.yue.thumbup.model.vo.BlogVO;
 import io.yue.thumbup.service.BlogService;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;

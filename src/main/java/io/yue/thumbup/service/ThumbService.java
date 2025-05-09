@@ -1,7 +1,7 @@
 package io.yue.thumbup.service;
 
-import io.yue.thumbup.domain.dto.DoThumbRequest;
-import io.yue.thumbup.domain.entity.Thumb;
+import io.yue.thumbup.model.dto.DoThumbRequest;
+import io.yue.thumbup.model.entity.Thumb;
 import com.baomidou.mybatisplus.extension.service.IService;
 import jakarta.servlet.http.HttpServletRequest;
 

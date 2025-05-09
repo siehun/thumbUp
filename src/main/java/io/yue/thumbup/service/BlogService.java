@@ -1,9 +1,8 @@
 package io.yue.thumbup.service;
 
-import io.yue.thumbup.domain.entity.Blog;
+import io.yue.thumbup.model.entity.Blog;
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.yue.thumbup.domain.entity.User;
-import io.yue.thumbup.domain.vo.BlogVO;
+import io.yue.thumbup.model.vo.BlogVO;
 import jakarta.servlet.http.HttpServletRequest;
 
 import java.util.List;
